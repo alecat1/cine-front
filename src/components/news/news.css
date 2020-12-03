@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+/** @group container */
+.container-news {
+  margin-top: 3% !important;
+}
+
+/** @group searchbar */
+.input__search-news {
+  font-family: "Sofia Pro Light";
+  border: 1px solid #ddd;
+  background: #ffffff;
+  display: block;
+  margin: 30px auto;
+  padding: 6px 25px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+}
+
+.input__search-news:focus {
+  border-color: #282828;
+  box-shadow: 0 0 9px #999595;
+}
+
+.input__search-news:hover {
+  border-color: #282828;
+  box-shadow: 0 0 9px #949494;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/** @group news */
+.container-cardnews {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 420px;
+}
+.img-height {
+  height: 400px;
+  width: 100%;
+}
+.container-new--text {
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+}
+.container-new--text > p {
+  margin-top: 30px;
+  font-family: "Sofia Pro light";
+  color: #282828;
+}
+.container-new--text > h2 {
+  font-family: "Sofia Pro Bold";
+  color: #282828;
+}
+
+.text-center > h1 {
+  font-family: "Sofia Pro Bold";
+  color: #000000;
+}
+
+.description-news {
+  display:none;
+  font-family: "Sofia Pro light";
+  color: #282828;
+}
+
+.description-news > b{
+  font-family: "Sofia Pro Bold";
+  text-decoration: underline;
+}

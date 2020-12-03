@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+.content-stad{
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  overflow: scroll;
+  height: 400px;
+  width: 95%;
+  border-radius: 1%;
+}
+.div-margin-top {
+  margin-top: 5%;
+}
+.circle-icon-stad {
+  background: #ffff;
+  width: fit-content;
+  padding: 2%;
+  width: 20%;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.circle-icon-stad-s {
+  transform: scale(1.2);
+}
+
+
+.center-elements{
+  text-align: center;
+  cursor: pointer;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.container-stad{
+  margin:80px 80px 0px 5px;
+}
+
+.frame-stad{
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+}
+
+.stad-fr > h4 {
+  font-family: "Sofia Pro Medium";
+}
+
+.stad-fr{
+  padding-top: 1%;
+}
+
+.container-statistics{
+  margin: 0px 2%;
+}

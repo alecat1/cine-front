@@ -1,0 +1,80 @@
+
+@font-face{
+    font-family: 'Sofia Pro Light';
+    src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face{
+    font-family: 'Sofia Pro Black';
+    src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face{
+    font-family: 'Sofia Pro Medium';
+    src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face{
+    font-family: 'Sofia Pro Bold';
+    src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+.img-logo-register{
+    width: 30%;
+}
+
+.input-register{
+    font-family: 'Sofia Pro Light';
+    border: 0;
+    background: #ffffff;
+    display: block;
+    margin: 30px auto;
+    padding: 14px 25px;
+    border-radius: 40px;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    border: solid;
+    border-color: #000000;    
+}
+
+.input-register:focus{
+    border-color: none;
+}
+.input-register::placeholder{
+    color: #1616169f;
+}
+
+
+.button-register{
+    font-family: 'Sofia Pro Medium';
+    border: 0;
+    background: #00CAD4;
+    border-radius: 40px;
+    height: 50px;
+    box-shadow: none;
+    outline: none;
+    color: #ffffff;
+    width: 100%;
+}
+
+.center-content{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.error{
+    text-align-last: center;
+    color: #ea1d52;
+}
+
+.hiperlink-black{
+    color: #000000;
+    font-family: 'Sofia Pro Medium';
+}
+.hiperlink-black:hover{
+    color: #ea1d52;
+}

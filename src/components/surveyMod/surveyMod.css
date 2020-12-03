@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+.containertitulo {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: "Sofia Pro Light";
+  margin-bottom: 2%;
+}
+
+.margin--container-adminmm {
+  margin-top: 8% !important;
+}
+
+.static-media {
+  position: static !important;
+  padding-left: 0% !important;
+  padding-right: 0% !important;
+}
+.containertitulo iframe {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 15px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .containertitulo iframe {
+    height: 700px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .margin--container-adminmm {
+    height: 700px;
+  }
+}

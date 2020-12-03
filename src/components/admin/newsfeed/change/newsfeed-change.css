@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+.swal-modal .swal-text {
+  text-align: center;
+}
+.container-admin-news {
+  margin-top: 4%;
+}
+
+.font-h1 {
+  font-family: "Sofia Pro Bold";
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+label {
+  font-family: "Sofia Pro Medium" !important;
+  color: #282828 !important;
+}
+
+.container-card-from-newsfeed-change{
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  width: 98.5%;
+  height:65%;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #282828 !important;
+  box-shadow: 0 0px 0px transparent inset, 0 0 0px transparent !important;
+  outline: 0 none;
+}
+
+textarea,
+input {
+  font-family: "Sofia Pro Light" !important;
+  border-color: #797979 !important;
+}
+
+.button-register {
+  font-family: "Sofia Pro Medium";
+  border: 0;
+  background: #00cad4;
+  border-radius: 40px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.button-register:hover {
+  background: #ea1d52 !important;
+}
+
+.button-delete {
+  font-family: "Sofia Pro Medium";
+  border: 0;
+  color: #fff !important;
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  border-radius: 40px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+}
+
+.button-delete:hover {
+  background: #fc094a !important;
+}
+
+.button-change {
+  font-family: "Sofia Pro Medium";
+  border: 0;
+  color: #212529 !important;
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+  border-radius: 40px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+}
+
+.button-change:hover {
+  background: rgba(250, 218, 34, 0.993) !important;
+}
+
+.modal--width-news{
+  width: 100% !important;
+  height: 380px !important;
+  margin-bottom: 12px;
+  object-fit: cover;
+  object-position: center center;
+}

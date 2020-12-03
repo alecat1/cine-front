@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+.cultural__block-margin {
+  margin-top: 6%;
+  margin-bottom: 3%;
+}
+.card__category{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  height: 300px;
+}
+.cultural__image > img {
+  width: 100%;
+}
+.cultural__image {
+  text-align: center;
+}
+.cultural__block-tittle {
+  text-align: center;
+  color: #000;
+  padding: 2px;
+  border-bottom-style: solid;
+  border-color: #fe2c55;
+}
+.cultural__block-tittle2 {
+  width: 50%;
+  text-align: center;
+  color: #000;
+  padding: 2px;
+  border-bottom-style: solid;
+  border-color: #00cad4;
+}
+.center-row_block{
+  text-align: -webkit-center;
+}
+.list-group-flex{
+  flex-direction: row !important;
+}
+.carousel{
+  width:600px;
+  height:400px;
+  margin: auto;
+}
+.carousel-item > img{
+  width:600px;
+  height:400px;
+}
+.a-title{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #000;
+}

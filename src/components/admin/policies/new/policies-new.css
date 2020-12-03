@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+.swal-modal .swal-text {
+  text-align: center;
+}
+.container-admin {
+  margin-top: 4%;
+}
+
+.font-h1 {
+  font-family: "Sofia Pro Bold";
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+label {
+  font-family: "Sofia Pro Medium" !important;
+  color: #282828 !important;
+}
+
+.container-card-from-policies-new{
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  -moz-box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  box-shadow: 3px 3px 12px -5px rgba(77, 77, 77, 0.75);
+  width: 100%;
+  height: 65%;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #282828 !important;
+  box-shadow: 0 0px 0px transparent inset,
+    0 0 0px transparent !important;
+  outline: 0 none;
+}
+
+textarea,
+input {
+    font-family: "Sofia Pro Light" !important;
+    border-color: #797979 !important;
+}
+
+.button--save-policie{
+  font-family: 'Sofia Pro Medium';
+  border: 0;
+  background: #00b2bb !important;
+  border-color: #00b2bb !important;
+  border-radius: 40px;
+  height: 50px;
+  box-shadow: none;
+  outline: none;
+  color: #ffffff;
+  width: 100%;
+}
+
+.button--save-policie:hover{
+  background: #008188 !important;
+  border-color: #008188 !important;
+}
+
+.files-policies-new > input {
+outline: 2px dashed #282828;
+outline-offset: -10px;
+-webkit-transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+padding: 4% 0px 85px 35%;
+text-align: center !important;
+margin: 0;
+width: 100% !important;
+}
+.files-policies-new > input:focus {
+outline: 2px dashed #282828;
+outline-offset: -10px;
+-webkit-transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+border: 1px solid #282828;
+}
+.files-policies-new {
+position: relative;
+font-family: "Sofia Pro Light";
+}
+.files-policies-new:after {
+pointer-events: none;
+position: absolute;
+top: 60px;
+left: -250px;
+width: 45px;
+right: 0;
+height: 45px;
+content: "";
+background-image: url("/assents/icons/icon-download.png");
+display: block;
+margin: 0 auto;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.color > input {
+background-color: #f1f1f1;
+}
+.files-policies-new:before {
+position: absolute;
+bottom: 10px;
+font-family: "Sofia Pro Light";
+left: 0;
+pointer-events: none;
+width: 100%;
+right: 0;
+height: 57px;
+content: " or drag it here. ";
+display: block;
+margin: -20px auto;
+color: #282828;
+font-weight: 600;
+text-transform: capitalize;
+text-align: center;
+}
+
+.files-policies-new > label {
+font-family: "Sofia Pro Medium";
+}

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+/** @group container */
+.container__videos{
+  margin-top: 6%;
+}
+
+/** @group searchbar */
+.input__search-videos {
+  font-family: "Sofia Pro Light";
+  border: 1px solid #797979;
+  background: #ffffff;
+  display: block;
+  padding: 6px 25px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+}
+
+.input__search-videos:focus {
+  border-color: #282828;
+  box-shadow: 0 0 9px #949494;
+}
+
+.input__search-videos:hover {
+  border-color: #282828;
+  box-shadow: 0 0 9px #949494;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/** @group container video */
+.card__video{
+ border-radius: 0px 0px 12px 12px !important;
+ margin-top: 1rem;
+ font-family: "Sofia Pro Light" !important;
+}
+
+.card__video > .card-title{
+  font-family: "Sofia Pro Black" !important;
+}

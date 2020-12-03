@@ -1,0 +1,52 @@
+.bubble-page {
+  position: absolute;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 8px;
+  position: fixed;
+  right: 18px;
+  z-index: 1004;
+  background: #ff004b;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.342);
+  -moz-box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.342);
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.342);
+  justify-content: center;
+  align-items: center;
+}
+.bubble-page p {
+  margin: 0;
+}
+
+.rotate-in-center {
+  -webkit-animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in-center {
+  0% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    opacity: 1;
+  }
+}

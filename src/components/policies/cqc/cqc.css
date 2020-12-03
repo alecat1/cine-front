@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+mark {
+  background: #00cad4;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+.content-policies {
+  position: relative;
+  background-color: transparent;
+  height: 450px;
+  width: 100%;
+  overflow: scroll;
+  margin: 0;
+}
+.container-policies-max{
+  margin: 5% 2%;
+}
+.Accordion-poli {
+  position: absolute !important;
+  width: 100% !important;
+}
+
+.input-searchBar-policies {
+  font-family: "Sofia Pro Light";
+  border: 1px solid #797979;
+  background: #ffffff;
+  display: block;
+  margin: 30px auto;
+  padding: 6px 25px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+}
+
+.input-searchBar-policies:focus {
+  border-color: #282828;
+  box-shadow: 0 0 9px #949494;
+}
+
+.input-searchBar-policies:hover {
+  border-color: #282828;
+  box-shadow: 0 0 9px #949494;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* accordion*/
+.panel-title {
+  font-size: 14px;
+  font-family: "Sofia Pro Medium";
+  color: #ffffff !important;
+}
+.accordion > .card {
+  margin: 10px 0px;
+  border: 0 !important;
+}
+.accordion > .card > .card-header {
+  margin-bottom: 0px !important;
+}
+.card-header {
+  background: #282828 !important;
+  padding: 10px 0px 10px 30px !important;
+  border-bottom: none !important;
+}
+
+.style-poli > h1 {
+  color: #282828 !important;
+  font-family: "Sofia Pro Bold";
+}
+.style-poli > pre {
+  color: #282828 !important;
+  font-family: "Sofia Pro Light";
+  overflow-x: visible !important;
+  overflow-y: scroll !important;
+}
+.no-sel{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Flags*/
+.flags-content-langs {
+  text-align: end;
+}
+
+.flag-icon-lang {
+  padding: 2%;
+  width: 10%;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.flag-icon-lang:hover {
+  transform: scale(1.2);
+}
+
+.flag-icon-lang-sel {
+  width: 12%;
+}
+.outerDiv{
+  align-items: center;
+}
+.border-card{
+  border: 1px dashed #282828;
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+.border-card-left{
+  border-left:1px dashed #282828;
+}
+
+.Disclaimer-Parraf{
+  font-family: "Sofia Pro Bold";
+  font-size: 12px;
+  text-align: justify;
+}

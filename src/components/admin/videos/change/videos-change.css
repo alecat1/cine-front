@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Sofia Pro Light";
+  src: url("/assents/fonts/sofiapro-light.otf");
+}
+@font-face {
+  font-family: "Sofia Pro Black";
+  src: url("/assents/fonts/SofiaProBlack.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Medium";
+  src: url("/assents/fonts/SofiaProMedium.ttf");
+}
+@font-face {
+  font-family: "Sofia Pro Bold";
+  src: url("/assents/fonts/SofiaProSemiBold.ttf");
+}
+
+.container-admin {
+  margin-top: 6%;
+}
+
+.font-h1 {
+  font-family: "Sofia Pro Bold";
+  text-align: center;
+  margin-bottom: 1%;
+}
+.files input {
+  outline: 2px dashed #282828;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus {
+  outline: 2px dashed #282828;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #282828;
+}
+.files {
+  position: relative;
+  font-family: "Sofia Pro Light";
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: "";
+  background-image: url("/assents/icons/icon-download.png");
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  font-family: "Sofia Pro Light";
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  content: " or drag it here. ";
+  display: block;
+  margin: -20px auto;
+  color: #282828;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.files > label {
+  font-family: "Sofia Pro Medium";
+}
+.description-p{
+  font-family: "Sofia Pro Medium";
+}
+
+.swal-content>strong{
+  font-family: "Sofia Pro Light" !important;
+}
+
+.swal-button:not([disabled]):hover {
+  background-color: #346586 !important;
+}
+
+/** @group container video */
+.card__video_admin{
+  border-radius: 0px 0px 12px 12px !important;
+  margin-top: 1rem;
+  font-family: "Sofia Pro Light" !important;
+
+ }
+ 
+ .card__video_admin > .card-title{
+   font-family: "Sofia Pro Black" !important;
+ }
+
+ .card_video_disable{
+  cursor: pointer; 
+ }
+
+ .card_video_selected{
+   border: 2px solid #fe2c55;
+ }
+
+.button-hide_admin{
+  display: none;
+}
+
+.button-visible_admin{
+  margin-top: auto !important;
+  display:block;
+}
