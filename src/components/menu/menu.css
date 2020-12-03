@@ -73,6 +73,12 @@
 .class-back-QA:hover {
   background-image: url("/assents/images/qa4.png");
 }
+.class-back-metricas{
+  z-index: auto;
+}
+.class-back-metricas:hover{
+  background-color: #fe2c55;
+}
 .class-back:hover {
   background-color: #fe2c55;
 }

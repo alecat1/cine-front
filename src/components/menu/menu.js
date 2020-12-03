@@ -9,6 +9,7 @@ const cookies = new Cookies();
 import Page from "react-page-loading";
 import Local from "../../local";
 import LocalQA from "../../localQA";
+import LocalMetrics from "../../localMetrics";
 
 class Menu extends Component {
   state = {
@@ -242,6 +243,14 @@ class Menu extends Component {
                     <img src='/assents/icons/tik-tok.svg' width='30' height='30'></img>
                   </i>
                   Tiktok QA
+                </a>
+              </li>
+              <li className='class-back-metricas'>
+                <a href={LocalMetrics.url + "url?tkn="+cookies.get('token')+'&lng='+cookies.get('language')}>
+                  <i className='fas fa-spell-check'>
+                     <img src='/assents/icons/metricas.svg' width='30' height='30'></img> 
+                  </i>
+                  Tiktok Metrics
                 </a>
               </li>
                 <li className="dropdown-submenu">
