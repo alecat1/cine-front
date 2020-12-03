@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './mediavideos';","map":{"version":3,"sources":["C:/Users/lopezvalenzuela.16/Documents/GitHub/tp-tiktok-front/src/components/mediavideos/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,eAAxB","sourcesContent":["export { default } from './mediavideos';"]},"metadata":{},"sourceType":"module"}
